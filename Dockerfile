@@ -1,4 +1,4 @@
-FROM node:9.8.0-slim
+FROM node:8.10.0-slim
 
 RUN apt-get update && \
     apt-get upgrade -y && \
